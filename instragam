@@ -1,0 +1,24 @@
+   curl -F 'client_id=9fd2b2a4227d455d9b75d65c37f855b3' \
+    -F 'client_secret=6efd62d5f82749069d7fd0f8ce7b98eb' \
+    -F 'grant_type=authorization_code' \
+    -F 'redirect_uri=http://www.saycheeseonwheels.com' \
+    -F 'code=9eaf31c1ca1a474f9c12206f4b6be77e' \
+    https://api.instagram.com/oauth/access_token
+
+
+
+https://api.instagram.com/oauth/authorize/?client_id=9fd2b2a4227d455d9b75d65c37f855b3&redirect_uri=http://www.saycheeseonwheels.com&response_type=code
+
+
+{
+  "access_token": "42790596.9fd2b2a.e1486ea65b9e41839bcabcea2fbe9edd", 
+  "user": {
+    "id": "42790596", 
+    "username": "bravebox", 
+    "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/11199360_920574264680884_1800311900_a.jpg", 
+    "full_name": "Mick", 
+    "bio": "Front-end Developer Rotterdam", 
+    "website": "http://www.bravebox.io", 
+    "is_business": false
+  }
+}%
